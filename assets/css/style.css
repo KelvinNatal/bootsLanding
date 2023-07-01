@@ -81,3 +81,11 @@ img{
     border-color: var(--c-brand-light);
     color: white;
 }
+
+/* HERO */
+#hero{
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), #000), url(../images/hero-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
