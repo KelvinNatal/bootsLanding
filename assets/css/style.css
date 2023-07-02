@@ -5,8 +5,8 @@
 
 :root{
     --c-dark: #212529;
-    --c-brand: #4e57;
-    --c-brand-light: #4e57d4;
+    --c-brand: #4e57d4;
+    --c-brand-light: #6970dd;
     --c-brand-rgb: 78, 87, 212;
     --c-body: #727272;
     --font-base: "ClashDisplay", sans-serif;
@@ -24,6 +24,7 @@ body{
 h1,h2,h3,h4,h5,
 .h1,.h2,.h3,.h4,.h5,.h6{
     font-weight: 600;
+    color: var(--c-dark);
 }
 
 a{
@@ -87,5 +88,37 @@ img{
     background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), #000), url(../images/hero-1.jpg);
     background-position: center;
     background-size: cover;
+}
+
+/* SECTION TITLE */
+.section-title{
+    margin-bottom: 60px;
+}
+
+
+.section-title .line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-title p{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ICONBOX */
+.iconbox{
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(var(--c-brand-rgb), 0.1);
+    color: var(--c-brand);
+    font-size: 34px;
+    flex: none;
 }
 
